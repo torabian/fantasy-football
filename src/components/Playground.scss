@@ -37,7 +37,18 @@
 
   .players-section {
     margin-bottom: 40px;
-    .player-placeholder:nth-child(n + 4) {
+
+    &.section-midfielders .player-placeholder:nth-child(n + 3) {
+      animation-iteration-count: 0;
+      opacity: 0.5;
+      animation: fadein 5s ease;
+    }
+    &.section-defenders .player-placeholder:nth-child(n + 4) {
+      animation-iteration-count: 0;
+      opacity: 0.5;
+      animation: fadein 5s ease;
+    }
+    &.section-forward .player-placeholder:nth-child(n + 2) {
       animation-iteration-count: 0;
       opacity: 0.5;
       animation: fadein 5s ease;

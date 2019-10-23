@@ -9,6 +9,7 @@ interface IProps {
 
 class Playground extends React.Component<IProps> {
   render() {
+    console.log('this.props.teamPlayers', this.props.teamPlayers)
     const team = new Team(this.props.teamPlayers);
     const goalKeeper = team.GetGoalKeeper();
     const defenders = team.GetDefenders();
@@ -23,45 +24,77 @@ class Playground extends React.Component<IProps> {
             <div className="players-holder">
               <div className="goal-keeper players-section">
                 {!goalKeeper ? (
-                  <img alt="player" src={"/shirt.svg"} className="player-placeholder animate-focus" />
+                  <img
+                    alt="player"
+                    src={'/shirt.svg'}
+                    className="player-placeholder animate-focus"
+                  />
                 ) : null}
                 {goalKeeper ? (
-                  <img alt="player" src={goalKeeper.TeamShirt} className="player-placeholder-selected" />
+                  <img
+                    alt="player"
+                    src={goalKeeper.TeamShirt}
+                    className="player-placeholder-selected"
+                  />
                 ) : null}
               </div>
-              <div className="defender players-section">
+              <div className="defender players-section section-defenders">
                 {[1, 2, 3, 4, 5].map((t, i) => {
                   if (i < defenders.length) {
                     return (
-                      <img alt="player" src={defenders[i].TeamShirt} className="player-placeholder-selected" />
+                      <img
+                        alt="player"
+                        src={defenders[i].TeamShirt}
+                        className="player-placeholder-selected"
+                      />
                     );
                   }
                   return (
-                    <img alt="player" src="/shirt.svg" className="player-placeholder animate-focus" />
+                    <img
+                      alt="player"
+                      src="/shirt.svg"
+                      className="player-placeholder animate-focus"
+                    />
                   );
                 })}
               </div>
-              <div className="midfielder players-section">
+              <div className="midfielder players-section section-midfielders">
                 {[1, 2, 3, 4, 5].map((t, i) => {
                   if (i < midfielders.length) {
                     return (
-                      <img alt="player" src={midfielders[i].TeamShirt} className="player-placeholder-selected" />
+                      <img
+                        alt="player"
+                        src={midfielders[i].TeamShirt}
+                        className="player-placeholder-selected"
+                      />
                     );
                   }
                   return (
-                    <img alt="player" src="/shirt.svg" className="player-placeholder animate-focus" />
+                    <img
+                      alt="player"
+                      src="/shirt.svg"
+                      className="player-placeholder animate-focus"
+                    />
                   );
                 })}
               </div>
-              <div className="forward players-section">
+              <div className="forward players-section section-forward">
                 {[1, 2, 3].map((t, i) => {
                   if (i < forwards.length) {
                     return (
-                      <img alt="player" src={forwards[i].TeamShirt} className="player-placeholder-selected" />
+                      <img
+                        alt="player"
+                        src={forwards[i].TeamShirt}
+                        className="player-placeholder-selected"
+                      />
                     );
                   }
                   return (
-                    <img alt="player" src="/shirt.svg" className="player-placeholder animate-focus" />
+                    <img
+                      alt="player"
+                      src="/shirt.svg"
+                      className="player-placeholder animate-focus"
+                    />
                   );
                 })}
               </div>
