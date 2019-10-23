@@ -27,7 +27,7 @@ class PlayersListItem extends React.Component<IProps> {
       <div
         className={classnames(
           'PlayersListItem',
-          isDisabled? 'disabled': null,
+          isDisabled && !isSelected ? 'disabled': null,
           isSelected ? 'selected' : null
         )}
       >
