@@ -10,7 +10,7 @@ const MockedPlayers = [
     price: 13000000,
     pts: 58,
     form: 6.2,
-    team_shirt: '/shirt_1.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_1.svg'
   },
   {
     first_name: 'R',
@@ -21,7 +21,7 @@ const MockedPlayers = [
     price: 12400000,
     pts: 49,
     form: 4.4,
-    team_shirt: '/shirt_2.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_2.svg'
   },
   {
     first_name: 'A',
@@ -32,7 +32,7 @@ const MockedPlayers = [
     price: 11800000,
     pts: 14,
     form: 3.5,
-    team_shirt: '/shirt_1.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_1.svg'
   },
   {
     first_name: 'T',
@@ -43,7 +43,7 @@ const MockedPlayers = [
     price: 11.5,
     pts: 42,
     form: 4.3,
-    team_shirt: '/shirt_3.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_3.svg'
   },
   {
     first_name: 'S',
@@ -54,7 +54,7 @@ const MockedPlayers = [
     price: 10300000,
     pts: 42,
     form: 4,
-    team_shirt: '/shirt_4.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_4.svg'
   },
   {
     first_name: 'B',
@@ -65,7 +65,7 @@ const MockedPlayers = [
     price: 9.3,
     pts: 0,
     form: 0,
-    team_shirt: '/shirt_1.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_1.svg'
   },
   {
     first_name: 'matuesh',
@@ -76,7 +76,7 @@ const MockedPlayers = [
     price: 3.3,
     pts: 0,
     form: 0,
-    team_shirt: '/shirt_1.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_1.svg'
   },
 
   {
@@ -88,7 +88,7 @@ const MockedPlayers = [
     price: 3.3,
     pts: 0,
     form: 0,
-    team_shirt: '/shirt_1.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_1.svg'
   },
   {
     first_name: 'J',
@@ -99,7 +99,7 @@ const MockedPlayers = [
     price: 110000,
     pts: 12,
     form: 56,
-    team_shirt: '/shirt_5.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_5.svg'
   },
   {
     first_name: 'J',
@@ -110,7 +110,7 @@ const MockedPlayers = [
     price: 50000,
     pts: 42,
     form: 56,
-    team_shirt: '/shirt_6.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_6.svg'
   },
   {
     first_name: 'J',
@@ -121,7 +121,7 @@ const MockedPlayers = [
     price: 9379178,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_7.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_7.svg'
   },
   {
     first_name: 'Q',
@@ -132,7 +132,7 @@ const MockedPlayers = [
     price: 9379178,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_7.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_7.svg'
   },
   {
     first_name: 'M',
@@ -143,7 +143,7 @@ const MockedPlayers = [
     price: 21312,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_8.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_8.svg'
   },
   {
     first_name: 'M',
@@ -154,7 +154,7 @@ const MockedPlayers = [
     price: 21312,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_9.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_9.svg'
   },
   {
     first_name: 'M',
@@ -165,7 +165,7 @@ const MockedPlayers = [
     price: 31123,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_9.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_9.svg'
   },
   {
     first_name: 'S',
@@ -176,7 +176,7 @@ const MockedPlayers = [
     price: 500000,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_10.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_10.svg'
   },
   {
     first_name: 'S',
@@ -187,7 +187,7 @@ const MockedPlayers = [
     price: 30000,
     pts: 12,
     form: 12,
-    team_shirt: '/shirt_11.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_11.svg'
   },
   {
     first_name: 'S',
@@ -198,7 +198,7 @@ const MockedPlayers = [
     price: 500000,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_12.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_12.svg'
   },
   {
     first_name: 'S',
@@ -209,7 +209,7 @@ const MockedPlayers = [
     price: 200000,
     pts: 22,
     form: 36,
-    team_shirt: '/shirt_12.svg'
+    team_shirt: process.env.PUBLIC_URL + '/shirt_12.svg'
   }
 ];
 

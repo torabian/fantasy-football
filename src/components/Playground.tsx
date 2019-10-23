@@ -9,7 +9,7 @@ interface IProps {
 
 class Playground extends React.Component<IProps> {
   render() {
-    console.log('this.props.teamPlayers', this.props.teamPlayers)
+    console.log('this.props.teamPlayers', this.props.teamPlayers);
     const team = new Team(this.props.teamPlayers);
     const goalKeeper = team.GetGoalKeeper();
     const defenders = team.GetDefenders();
@@ -20,13 +20,17 @@ class Playground extends React.Component<IProps> {
       <div className="Playground">
         <div className="field">
           <div className="play-field">
-            <img alt="player" src="/field.png" className="field-image" />
+            <img
+              alt="player"
+              src={process.env.PUBLIC_URL + '/field.png'}
+              className="field-image"
+            />
             <div className="players-holder">
               <div className="goal-keeper players-section">
                 {!goalKeeper ? (
                   <img
                     alt="player"
-                    src={'/shirt.svg'}
+                    src={process.env.PUBLIC_URL + '/shirt.svg'}
                     className="player-placeholder animate-focus"
                   />
                 ) : null}
@@ -52,7 +56,7 @@ class Playground extends React.Component<IProps> {
                   return (
                     <img
                       alt="player"
-                      src="/shirt.svg"
+                      src={process.env.PUBLIC_URL + '/shirt.svg'}
                       className="player-placeholder animate-focus"
                     />
                   );
@@ -72,7 +76,7 @@ class Playground extends React.Component<IProps> {
                   return (
                     <img
                       alt="player"
-                      src="/shirt.svg"
+                      src={process.env.PUBLIC_URL + '/shirt.svg'}
                       className="player-placeholder animate-focus"
                     />
                   );
@@ -92,7 +96,7 @@ class Playground extends React.Component<IProps> {
                   return (
                     <img
                       alt="player"
-                      src="/shirt.svg"
+                      src={process.env.PUBLIC_URL + "/shirt.svg"}
                       className="player-placeholder animate-focus"
                     />
                   );
