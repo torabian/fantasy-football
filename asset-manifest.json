@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca48ad3d.chunk.css",
-    "main.js": "/static/js/main.0b6c3bfd.chunk.js",
-    "main.js.map": "/static/js/main.0b6c3bfd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dc8d4a7d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dc8d4a7d.js.map",
-    "static/css/2.400f043a.chunk.css": "/static/css/2.400f043a.chunk.css",
-    "static/js/2.b236b16c.chunk.js": "/static/js/2.b236b16c.chunk.js",
-    "static/js/2.b236b16c.chunk.js.map": "/static/js/2.b236b16c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.462e3e06d2cca05183a54a6ed362c7c3.js": "/precache-manifest.462e3e06d2cca05183a54a6ed362c7c3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.400f043a.chunk.css.map": "/static/css/2.400f043a.chunk.css.map",
-    "static/css/main.ca48ad3d.chunk.css.map": "/static/css/main.ca48ad3d.chunk.css.map",
-    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/fantasy-football/static/css/main.80d1e654.chunk.css",
+    "main.js": "/fantasy-football/static/js/main.09589840.chunk.js",
+    "main.js.map": "/fantasy-football/static/js/main.09589840.chunk.js.map",
+    "runtime-main.js": "/fantasy-football/static/js/runtime-main.1f19c318.js",
+    "runtime-main.js.map": "/fantasy-football/static/js/runtime-main.1f19c318.js.map",
+    "static/css/2.841181a1.chunk.css": "/fantasy-football/static/css/2.841181a1.chunk.css",
+    "static/js/2.b236b16c.chunk.js": "/fantasy-football/static/js/2.b236b16c.chunk.js",
+    "static/js/2.b236b16c.chunk.js.map": "/fantasy-football/static/js/2.b236b16c.chunk.js.map",
+    "index.html": "/fantasy-football/index.html",
+    "precache-manifest.57aa9ef0af258796c6435ccdfa84eac5.js": "/fantasy-football/precache-manifest.57aa9ef0af258796c6435ccdfa84eac5.js",
+    "service-worker.js": "/fantasy-football/service-worker.js",
+    "static/css/2.841181a1.chunk.css.map": "/fantasy-football/static/css/2.841181a1.chunk.css.map",
+    "static/css/main.80d1e654.chunk.css.map": "/fantasy-football/static/css/main.80d1e654.chunk.css.map",
+    "static/media/font-awesome.min.css": "/fantasy-football/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc8d4a7d.js",
-    "static/css/2.400f043a.chunk.css",
+    "static/js/runtime-main.1f19c318.js",
+    "static/css/2.841181a1.chunk.css",
     "static/js/2.b236b16c.chunk.js",
-    "static/css/main.ca48ad3d.chunk.css",
-    "static/js/main.0b6c3bfd.chunk.js"
+    "static/css/main.80d1e654.chunk.css",
+    "static/js/main.09589840.chunk.js"
   ]
 }
