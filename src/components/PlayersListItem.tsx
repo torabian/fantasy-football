@@ -54,9 +54,9 @@ class PlayersListItem extends React.Component<IProps> {
             <span className="player-item-club">{player.Club}</span>
           </div>
         </div>
-        <div className="player-item-form">6.2</div>
-        <div className="player-item-pts">15</div>
-        <div className="player-item-price">12M</div>
+        <div className="player-item-form">{player.Form}</div>
+        <div className="player-item-pts">{player.PTS}</div>
+        <div className="player-item-price">{player.PriceFormatted()}</div>
       </div>
     );
   }

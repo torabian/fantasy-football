@@ -1,3 +1,5 @@
+import { formatNumber } from './Common';
+
 export interface IPlayer {
   first_name: string;
   last_name: string;
@@ -5,6 +7,9 @@ export interface IPlayer {
   team: string;
   club: string;
   team_shirt: string;
+  pts: number;
+  form: number;
+  price: number;
 }
 
 export class Player {
@@ -15,6 +20,10 @@ export class Player {
   public Club: string = '';
   public TeamShirt: string = '';
   public UID: string = '' + Math.random();
+  public PTS: number = 0;
+  public Form: number = 0;
+
+  private price: number = 0;
 
   constructor(player: IPlayer) {
     this.FirstName = player.first_name;
@@ -23,10 +32,20 @@ export class Player {
     this.Team = player.team;
     this.Club = player.club;
     this.TeamShirt = player.team_shirt;
+    this.PTS = player.pts;
+    this.Form = player.form;
+    this.price = +player.price;
   }
 
   DisplayName() {
     return [this.FirstName.substr(0, 1), this.LastName].join(' ');
+  }
+
+  PriceFormatted() {
+    if (!this.price) {
+      return '-';
+    }
+    return formatNumber(this.price);
   }
 }
 

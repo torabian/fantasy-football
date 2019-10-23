@@ -1,5 +1,6 @@
 .Playground {
-  background-color: gray;
+  background-color: #09ba09;
+  border-left: 5px solid orange;
   flex: 1;
   padding-top: 50px;
   text-align: center;
@@ -12,7 +13,7 @@
   .players-holder {
     position: absolute;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 40px;
     left: 0;
   }
   .field-image {
@@ -26,6 +27,9 @@
   }
 
   .players-section {
-    margin-bottom: 30px;
+    margin-bottom: 53px;
+    .player-placeholder:nth-child(n + 4) {
+      opacity: 0.5;
+    }
   }
 }
