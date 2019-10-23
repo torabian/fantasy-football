@@ -6,6 +6,7 @@
   text-align: center;
 
   .play-field {
+    perspective: 900px;
     position: relative;
     width: 300px;
     margin: auto;
@@ -13,23 +14,47 @@
   .players-holder {
     position: absolute;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
     left: 0;
   }
   .field-image {
     width: 300px;
     position: absolute;
+    transform: rotate3d(1, 0, 0, 60deg);
     left: 0;
   }
 
+  .player-placeholder-selected {
+    width: 50px;
+  }
   .player-placeholder {
     width: 50px;
+    &.animate-focus {
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transform-origin: bottom;
+      animation-name: bounce;
+      animation-timing-function: ease;
+    }
   }
 
   .players-section {
-    margin-bottom: 53px;
+    margin-bottom: 40px;
     .player-placeholder:nth-child(n + 4) {
+      animation-iteration-count: 0;
       opacity: 0.5;
     }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
