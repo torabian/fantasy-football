@@ -26,7 +26,7 @@ class Playground extends React.Component<IProps> {
                   <img alt="player" src={"/shirt.svg"} className="player-placeholder animate-focus" />
                 ) : null}
                 {goalKeeper ? (
-                  <img alt="player" src={goalKeeper.TeamShirt} className="player-placeholder player-placeholder-selected" />
+                  <img alt="player" src={goalKeeper.TeamShirt} className="player-placeholder-selected" />
                 ) : null}
               </div>
               <div className="defender players-section">

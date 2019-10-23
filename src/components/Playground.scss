@@ -20,7 +20,8 @@
   .field-image {
     width: 300px;
     position: absolute;
-    transform: rotate3d(1, 0, 0, 60deg);
+    animation: field-animation 2s alternate;
+    animation-fill-mode: forwards;
     left: 0;
   }
 
@@ -30,11 +31,7 @@
   .player-placeholder {
     width: 50px;
     &.animate-focus {
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-      transform-origin: bottom;
-      animation-name: bounce;
-      animation-timing-function: ease;
+      animation: fadein 5s ease, bounce ease 2s infinite alternate;
     }
   }
 
@@ -43,6 +40,7 @@
     .player-placeholder:nth-child(n + 4) {
       animation-iteration-count: 0;
       opacity: 0.5;
+      animation: fadein 5s ease;
     }
   }
 }
@@ -56,5 +54,22 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes field-animation {
+  from {
+    transform: rotate3d(1, 0, 0, 0);
+  }
+  to {
+    transform: rotate3d(1, 0, 0, 60deg);
   }
 }
