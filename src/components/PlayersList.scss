@@ -1,0 +1,14 @@
+.PlayersList {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+  .tag-filter-item {
+    border-radius: 5px;
+    background-color: silver;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin: 3px;
+    text-transform: uppercase;
+  }
+}

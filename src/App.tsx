@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Provider } from 'react-redux'
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
+import Sidebar from './components/Sidebar';
+import Playground from './components/Playground';
+import { store } from './Store';
+import { FetchPlayers } from './actions/PlayerActions';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+ 
+  componentDidMount() {
+    FetchPlayers();
+  }
+
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="App">
+          <Sidebar />
+          <Playground />
+        </div>
+      </Provider>
+    );
+  }
 }
 
 export default App;

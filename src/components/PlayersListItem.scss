@@ -1,0 +1,76 @@
+.PlayersListItem {
+  background-color: white;
+  display: flex;
+  flex: 1;
+  // height: 30px;
+  flex-direction: row;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid #f1f1f1;
+
+  &.selected {
+    background-color: #75ff75;
+    transition: 0.2s all ease-in-out;
+  }
+  &.disabled {
+    opacity: 0.8;
+  }
+
+  .player-item-action {
+    width: 35px;
+    text-align: center;
+  }
+  .player-item-icon {
+    width: 35px;
+    text-align: center;
+    position: relative;
+    .player-role {
+      left: 20%;
+      right: 20%;
+      font-size: 8px;
+      padding: 1px 2px;
+      border-radius: 5px;
+      background-color: silver;
+      position: absolute;
+      bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+  .player-item-info {
+    flex: 2;
+  }
+  .player-item-name {
+    flex: 1;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .player-item-location {
+    flex: 1;
+    padding-top: 3px;
+  }
+  .player-item-team {
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .player-item-club {
+    padding-left: 5px;
+  }
+  .player-item-form {
+    width: 25px;
+  }
+  .player-item-pts {
+    width: 25px;
+  }
+  .player-item-price {
+    font-weight: bold;
+    width: 25px;
+    color: green;
+    font-size: 11px;
+  }
+  .player-action-btn {
+    padding: 5px 7px;
+    background-color: transparent;
+  }
+  .player-image {
+    width: 20px;
+  }
+}

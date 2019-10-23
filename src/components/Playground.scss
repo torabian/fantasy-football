@@ -1,0 +1,31 @@
+.Playground {
+  background-color: gray;
+  flex: 1;
+  padding-top: 50px;
+  text-align: center;
+
+  .play-field {
+    position: relative;
+    width: 300px;
+    margin: auto;
+  }
+  .players-holder {
+    position: absolute;
+    width: 100%;
+    padding-top: 100px;
+    left: 0;
+  }
+  .field-image {
+    width: 300px;
+    position: absolute;
+    left: 0;
+  }
+
+  .player-placeholder {
+    width: 50px;
+  }
+
+  .players-section {
+    margin-bottom: 30px;
+  }
+}
