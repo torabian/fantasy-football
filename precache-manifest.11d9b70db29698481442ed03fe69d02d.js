@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1289bf920fc17486657894619757f4d9",
+    "revision": "b275ec21243be049fe94556bf538cc3c",
     "url": "/fantasy-football/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fantasy-football/static/css/2.841181a1.chunk.css"
   },
   {
-    "revision": "5200d3070d1166439fb2",
+    "revision": "0b4055a4c2166a12b0d7",
     "url": "/fantasy-football/static/css/main.80d1e654.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fantasy-football/static/js/2.b236b16c.chunk.js"
   },
   {
-    "revision": "5200d3070d1166439fb2",
-    "url": "/fantasy-football/static/js/main.09589840.chunk.js"
+    "revision": "0b4055a4c2166a12b0d7",
+    "url": "/fantasy-football/static/js/main.23e5edd4.chunk.js"
   },
   {
     "revision": "0a7e533adaf6f88f0125",
