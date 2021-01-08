@@ -15,3 +15,5 @@ You can see the demo here: https://torabian.github.io/fantasy-football
 ## Credits
 
 This is build by Ali Torabi you can us at https://pixelplux.com
+
+for more information or getting back to us :)
