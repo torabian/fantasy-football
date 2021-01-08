@@ -5,7 +5,7 @@ In this hackaton goal was to create a simple app that will simulate a fantasy fo
 This is based on react.js, and build in 1 day.
 
 
-![alt text](football-fantasy-react.png "Football fantasy, team assemble, making match")
+![alt text](football-fantasy-react.gif "Football fantasy, team assemble, making match")
 
 
 ## Demo online
